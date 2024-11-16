@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Result{% endblock %}
+
+{% block content %}
+<div>
+    <div class="result-box">
+        {% if prediction %}
+            <p>The prediction is: {{ prediction }}</p>
+        {% elif error %}
+            <p>Error: {{ error }}</p>
+        {% endif %}
+    </div>
+    <a href="/" style="text-decoration: none;">
+        <button style="margin-top: 15px;">Go Back</button>
+    </a>
+</div>
+{% endblock %}

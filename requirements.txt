@@ -1,0 +1,8 @@
+flask
+pylint
+pytest
+numpy
+pandas
+scikit-learn
+tensorflow 
+torch
