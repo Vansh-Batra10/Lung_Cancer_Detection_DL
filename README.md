@@ -1,5 +1,5 @@
 ---
-
+---
 # Lung Cancer Detection using Deep Learning
 
 This project involves detecting lung cancer types using deep learning techniques. The classification task is divided into three categories: **Normal**, **Benign**, and **Malignant**. The project uses convolutional neural networks (CNNs) to classify medical images and explores multiple architectures, including advanced CNNs and ResNet50.
