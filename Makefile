@@ -11,6 +11,9 @@ setup:
 run:
 	$(FLASK) run
 
+show:
+	$(PIP) show tensorflow
+	
 test:
 	$(PYTHON) -m unittest discover -s tests -p "*.py"
 
